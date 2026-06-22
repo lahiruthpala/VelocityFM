@@ -1,0 +1,19 @@
+model:
+  single_representation_dim: 384
+  pair_representation_dim: 128
+  ipa_blocks: 6
+  ipa_heads: 8
+  ipa_hidden_dim: 16
+  ipa_query_key_points: 4
+  ipa_value_points: 8
+  temporal_attention:
+    enabled: true
+    layers: 2
+    heads: 8
+    dropout: 0.0
+  window_size: 16
+  strides: [1, 2, 4]
+  input_channels:
+    conditioning_state: 23
+    flow_state: 13
+    total: 36

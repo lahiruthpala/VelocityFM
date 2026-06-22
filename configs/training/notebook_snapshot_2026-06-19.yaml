@@ -1,0 +1,49 @@
+# Transcribed from notebooks/02_training/01_velocityfm_training_current.ipynb.
+# This is the current notebook snapshot and should not be assumed to be the
+# exact configuration that produced every result artifact.
+experiment:
+  seed: 42
+  active_smoothing_window: 5
+  resume_from: Model_T4_V6/Traning_195/checkpoints/last.pt
+
+data:
+  max_residues: 160
+  trajectory_length: 1000
+  window_size: 16
+  strides: [1, 2, 4]
+  batch_size: 8
+
+velocity_statistics:
+  v_std: 0.36148
+  omega_std: 0.09518
+  torsion_rate_std: 0.27686
+  v_std_by_stride: {1: 0.36148, 2: 0.29533, 4: 0.1932}
+  omega_std_by_stride: {1: 0.09518, 2: 0.0751, 4: 0.04722}
+  torsion_rate_std_by_stride: {1: 0.27686, 2: 0.20992, 4: 0.12483}
+
+flow:
+  ar1_rho: 0.7
+  sigma_v: 0.4699
+  sigma_omega: 0.1237
+  sigma_torsion_rate: 0.3599
+
+training:
+  epochs: 100
+  learning_rate: 0.0003
+  minimum_learning_rate: 0.00003
+  weight_decay: 0.01
+  gradient_accumulation_steps: 4
+  precision: bf16
+  compile: true
+  ema_decay: 0.999
+  endpoint_interpolation_probability: 0.25
+  anchor_alpha: 0.05
+  gradient_clip_schedule:
+    - {until_step: 100, max_norm: 500.0}
+    - {until_step: 500, max_norm: 50.0}
+    - {until_step: 9999, max_norm: 15.0}
+  schedule:
+    fm_warmup_steps: 150
+    atom14_ramp_steps: 600
+    openfold_ramp_steps: 1200
+    interpolation_start_step: 1200

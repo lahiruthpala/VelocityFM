@@ -1,0 +1,24 @@
+# Portable package
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+torch>=2.2
+
+# Notebook and analysis dependencies
+biopython
+dm-tree
+einops
+fair-esm
+geomstats
+joblib
+matplotlib
+MDAnalysis
+mdtraj
+ml-collections
+modelcif
+POT
+scikit-learn
+seaborn
+tqdm
+
+# OpenFold and FoldFlow are not pinned here. See docs/dependencies.md.

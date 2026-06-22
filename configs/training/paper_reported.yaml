@@ -1,0 +1,13 @@
+# Settings stated in the supplied paper PDF. Reconcile with the notebook
+# snapshot before publication or archival release.
+model_parameters_approx: 15000000
+batch_size: 8
+max_residues: 160
+ema_decay: 0.99
+endpoint_interpolation_probability: 0.15
+flow_dominant_warmup_steps: 150
+heavier_geometry_start_step: 1000
+gradient_clip_schedule: [500, 50, 15]
+primary_rollout_frames: 128
+flow_steps_per_window: 32
+anchor_alpha_at_inference: 0.0

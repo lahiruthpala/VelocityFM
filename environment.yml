@@ -1,0 +1,14 @@
+name: velocityfm
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - pytorch>=2.2
+  - pytest
+  - pip:
+      - -r requirements.txt

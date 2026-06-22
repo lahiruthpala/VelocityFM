@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-06-22",
+  "main_resource_folder_id": "1vrR18YjzwUs5Sz-MOtK280VMmGTn52ux",
+  "data_folder_id": "1nBC8Ak3GsMzOBh2D_AHcaua6-W1uK300",
+  "models_folder_id": "1l7aoHdzbhyoQQbYx91qKNWq7QYsR6Ez3",
+  "entries": [
+    {
+      "title": "velocity_fm_T4_V7_anchor_v2.ipynb",
+      "drive_id": "1r7dt69QwYjYwBffr8fpwTBIQzFZsE-MD",
+      "modified_time": "2026-06-19T15:30:08.184Z",
+      "local_path": "notebooks/02_training/01_velocityfm_training_current.ipynb",
+      "role": "current training notebook"
+    },
+    {
+      "title": "VelocityFM_Inference_Colab_bf16_fixed_STRICTPDB.ipynb",
+      "drive_id": "1NWolICVYZXOHvnpmx5SGolGkiojVJPA3",
+      "modified_time": "2026-04-14T07:10:03.225Z",
+      "local_path": "notebooks/03_inference/01_velocityfm_inference_strictpdb.ipynb",
+      "role": "strict-PDB inference notebook"
+    },
+    {
+      "title": "select_diverse_chains.ipynb",
+      "drive_id": "1aR3iYz_TdsVphVqGMImD_ItGgyxC9nkk",
+      "modified_time": "2026-02-28T03:56:44.999Z",
+      "local_path": "notebooks/01_data/03_select_diverse_chains.ipynb",
+      "role": "diversity selection"
+    },
+    {
+      "title": "Splitting_the_Data.ipynb",
+      "drive_id": "1G5wxFY_fdW2iNROLoVRRIKTerozocWcy",
+      "modified_time": "2025-12-01T05:32:32.685Z",
+      "local_path": "notebooks/01_data/04_split_data_legacy.ipynb",
+      "role": "legacy protein-level split notebook"
+    },
+    {
+      "title": "ATLAS_Data_filtering.ipynb",
+      "drive_id": "1lKdmtjQhd98fzcjRtNxIMzMLNMyfcdvV",
+      "modified_time": "2025-08-30T11:53:20.248Z",
+      "local_path": "notebooks/01_data/02_filter_atlas.ipynb",
+      "role": "ATLAS filtering"
+    },
+    {
+      "title": "data_extraction_openfold_v4.ipynb",
+      "drive_id": "1FfpGqFG_lMPXPzK_4ons_YRQfiKD5ZtZ",
+      "modified_time": "2026-02-27T12:19:54.446Z",
+      "local_path": "notebooks/01_data/05_extract_openfold_features_v4.ipynb",
+      "role": "OpenFold-convention feature extraction"
+    },
+    {
+      "title": "Data_Embedding_with_esm.ipynb",
+      "drive_id": "1pwPSnUEui32gSadp_3npTTNoCdvcNeaj",
+      "modified_time": "2026-01-02T08:28:25.787Z",
+      "local_path": "notebooks/01_data/06_generate_esm_embeddings.ipynb",
+      "role": "ESM2 embedding generation"
+    },
+    {
+      "title": "Download ATLAS Data.ipynb",
+      "drive_id": "1q8SobTfEBRSSYb9M0jk3iK4eMkury78k",
+      "modified_time": "2025-07-30T10:01:46.698Z",
+      "local_path": "notebooks/01_data/01_download_atlas.ipynb",
+      "role": "ATLAS download"
+    },
+    {
+      "title": "protein_trajectory_validation.ipynb",
+      "drive_id": "12L6i2gAL6cfzEiWhPaLMeX1o37gdg7d4",
+      "modified_time": "2026-04-14T19:05:55.368Z",
+      "local_path": "notebooks/04_evaluation/01_protein_trajectory_validation.ipynb",
+      "role": "trajectory evaluation"
+    },
+    {
+      "title": "Torsion_to_PDB_Reconstruction.ipynb",
+      "drive_id": "13a_fmQQvhbv7mvo_tPdzdSS2KNFvVbm8",
+      "modified_time": "2025-11-25T05:03:26.851Z",
+      "local_path": "notebooks/04_evaluation/03_torsion_to_pdb_reconstruction.ipynb",
+      "role": "torsion reconstruction validation"
+    },
+    {
+      "title": "GT_Data_Validation(a14, Backbone, sidechain).ipynb",
+      "drive_id": "1PI0IMLeg_Ufq7KE8GKTgE0zblPyx8l07",
+      "modified_time": "2026-02-17T04:30:50.307Z",
+      "local_path": "notebooks/04_evaluation/02_ground_truth_data_validation.ipynb",
+      "role": "ground-truth atom14/backbone validation"
+    },
+    {
+      "title": "contact_stability_analysis.ipynb",
+      "drive_id": "1pzOn3qjC6yLvXySINKZdSjqjaBeVYHrF",
+      "modified_time": "2026-02-17T04:59:15.795Z",
+      "local_path": "notebooks/04_evaluation/04_contact_stability_analysis.ipynb",
+      "role": "contact stability analysis"
+    },
+    {
+      "title": "ATLAS_protein_list.tsv",
+      "drive_id": "1FAJGIvXyctVjKvqzBXErNQoFhcIPzUpJ",
+      "modified_time": "2025-08-15T03:51:32.384Z",
+      "local_path": "data/manifests/ATLAS_protein_list.tsv",
+      "role": "ATLAS metadata"
+    },
+    {
+      "title": "VelocityFM_population_validation.zip",
+      "drive_id": "1ZhdY4VavnJgXhtk8M_7bcnzYRSYVdx7q",
+      "modified_time": "2026-04-14T11:51:30.596Z",
+      "local_path": "results/",
+      "role": "source artifact for 72-protein CSV and figures"
+    }
+  ]
+}

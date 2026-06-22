@@ -1,0 +1,15 @@
+evaluation:
+  protein_ids_file: data/splits/test_proteins_from_population_results.txt
+  population_results: results/tables/results_population.csv
+  primary_rollout_frames: 128
+  protein_count: 72
+  metrics:
+    - tm_score
+    - ca_rmsd
+    - gdt_ts
+    - ca_ca_bond_validity
+    - steric_clashes
+    - ramachandran_favoured
+    - rmsf_pearson
+    - rmsf_ratio
+    - diversity_rmsd

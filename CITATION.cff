@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use VelocityFM, cite the associated paper and this software snapshot."
+title: "VelocityFM: Short-Horizon Protein Trajectory Prediction via Flow Matching in Velocity Space"
+type: software
+authors:
+  - family-names: "Jayathilake"
+    given-names: "G. D. L. U."
+  - family-names: "Wijesinghe"
+    given-names: "C. R."
+  - family-names: "Weerasinghe"
+    given-names: "A. R"
+version: "0.1.0"
+date-released: "2026-06-22"

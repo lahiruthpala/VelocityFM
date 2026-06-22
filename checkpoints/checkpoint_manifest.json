@@ -1,0 +1,18 @@
+{
+  "result_associated_run": {
+    "name": "Model_T4_V6/Traning_192",
+    "drive_folder_id": "1dYRqHZqFzuWLrWQaEjxLEGK2UYUMoi8h",
+    "checkpoint_folder_id": "1Tdz4s9mD4zUPRsyZ0IBGX1TUIZgFdL3e",
+    "best_checkpoint": {
+      "title": "best.pt",
+      "drive_id": "1M3cMdO8bVFvlIhlL-1JpbPQ3zVR1mGR5"
+    },
+    "last_checkpoint": {
+      "title": "last.pt",
+      "drive_id": "13ZNsxhCwcEO8QvcpaM-IV6y5GPQ57WZe"
+    }
+  },
+  "current_training_notebook_resume_path": "Model_T4_V6/Traning_195/checkpoints/last.pt",
+  "included_in_zip": false,
+  "Other old checkpoints": "https://drive.google.com/drive/u/0/folders/1l7aoHdzbhyoQQbYx91qKNWq7QYsR6Ez3"
+}

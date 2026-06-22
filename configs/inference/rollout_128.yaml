@@ -1,0 +1,22 @@
+rollout:
+  total_frames: 128
+  flow_steps_per_window: 32
+  seed: 0
+  window_size: 16
+  stride: 1
+  anchor_alpha: 0.0
+  precision: bf16
+  temperature: 2.0
+  langevin_noise_translation_angstrom: 0.15
+  langevin_noise_torsion_radians: 0.05
+
+input:
+  chain_id: null
+  compute_esm_embedding: true
+  esm_model: esm2_t33_650M_UR50D
+  esm_layer: 33
+  esm_dim: 1280
+
+output:
+  prefer_atom14: true
+  strict_fixed_width_pdb: true

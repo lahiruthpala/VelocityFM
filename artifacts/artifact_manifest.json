@@ -1,0 +1,11 @@
+{
+  "population_results": {
+    "table": "results/tables/results_population.csv",
+    "summary": "results/metrics/evaluation_summary.json",
+    "figures_directory": "results/figures",
+    "protein_count": 72
+  },
+  "paper": "paper/main.pdf",
+  "notebook_source_manifest": "artifacts/drive_source_manifest.json",
+  "checkpoint_manifest": "checkpoints/checkpoint_manifest.json"
+}

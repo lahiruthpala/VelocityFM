@@ -1,0 +1,22 @@
+{
+  "source_file": "results/tables/results_population.csv",
+  "n_test_proteins": 72,
+  "median": {
+    "tm_score": 0.9291303767822683,
+    "ca_rmsd_angstrom": 1.3429015068063848,
+    "gdt_ts": 0.8456793017400106,
+    "valid_ca_ca_fraction": 0.7295940574620674,
+    "steric_clash_fraction": 0.0,
+    "ramachandran_favoured_fraction": 0.9108799743834146,
+    "rmsf_pearson": 0.6624840199947357,
+    "rmsf_ratio": 0.696486833101587,
+    "helix_preservation_ratio": 0.7372197855578706,
+    "diversity_rmsd_angstrom": 0.6253808482453741
+  },
+  "all_gen_tm_gt_0_7": true,
+  "all_zero_reported_clashes": true,
+  "notes": [
+    "Values are derived directly from the Drive population-results CSV.",
+    "Fractions are stored in [0,1]; multiply by 100 for percentages."
+  ]
+}

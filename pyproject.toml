@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "velocityfm"
+version = "0.1.0"
+description = "Portable utilities and research artifacts for VelocityFM"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "G. D. L. U. Jayathilake"}]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scipy>=1.10",
+  "torch>=2.2",
+]
+
+[project.optional-dependencies]
+notebooks = [
+  "biopython",
+  "dm-tree",
+  "einops",
+  "fair-esm",
+  "geomstats",
+  "joblib",
+  "matplotlib",
+  "MDAnalysis",
+  "mdtraj",
+  "ml-collections",
+  "modelcif",
+  "POT",
+  "scikit-learn",
+  "seaborn",
+  "tqdm",
+]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
